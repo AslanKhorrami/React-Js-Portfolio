@@ -1,79 +1,80 @@
-import React, { Component } from "react";
+import React, { useState, Fragment } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      deps: {},
-      detailsModalShow: false,
-    };
-  }
+function Projects(props) {
+  const [deps, setDeps] = useState({});
+  const [detailsModalShow, setDetailsModalShow] = useState(false);
 
-  render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
+  const ModalShow = (data) => {
+    setDetailsModalShow(true);
+    setDeps(data);
+  };
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{
-                      marginBottom: 0,
-                      paddingBottom: 0,
-                      position: "relative",
-                    }}
-                  />
-                  <span
-                    className="project-date"
-                    style={{ fontFamily: "BTitrBold" }}
+  const detailsModalClose = () => setDetailsModalShow(false);
+
+  return (
+    <section id="portfolio">
+      <div className="col-md-12">
+        {props.resumeProjects && props.resumeBasicInfo ? (
+          <Fragment>
+            <h1
+              className="section-title"
+              style={{
+                color: "black",
+                fontFamily: "BTitrBold",
+                fontSize: "300%",
+              }}
+            >
+              <span>{props.resumeBasicInfo.section_name.projects}</span>
+            </h1>
+            <div className="col-md-12 mx-auto">
+              <div className="row mx-auto">
+                {props.resumeProjects.map((projects) => (
+                  <div
+                    className="col-sm-12 col-md-6 col-lg-4"
+                    key={projects.title}
+                    style={{ cursor: "pointer" }}
                   >
-                    {projects.startDate}
-                  </span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
+                    <span className="portfolio-item d-block">
+                      <div className="foto" onClick={() => ModalShow(projects)}>
+                        <div>
+                          <img
+                            src={projects.images[0]}
+                            alt="projectImages"
+                            height="230"
+                            style={{
+                              marginBottom: 0,
+                              paddingBottom: 0,
+                              position: "relative",
+                            }}
+                          />
+                          <span
+                            className="project-date"
+                            style={{ fontFamily: "BTitrBold" }}
+                          >
+                            {projects.startDate}
+                          </span>
+                          <br />
+                          <p className="project-title-settings mt-3">
+                            {projects.title}
+                          </p>
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+                ))}
               </div>
-            </span>
-          </div>
-        );
-      });
-    }
-
-    return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
-        </div>
-      </section>
-    );
-  }
+            </div>
+            <ProjectDetailsModal
+              show={detailsModalShow}
+              onHide={detailsModalClose}
+              data={deps}
+            />
+          </Fragment>
+        ) : null}
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
