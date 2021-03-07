@@ -4,77 +4,67 @@
       "description": "اصلان خرمی هستم. عاشق ری اکت و پایتون و مسلط به سیستم مدیریت محتوی وردپرس! ارائه مشاوره، نیازسنجی، طراحی نمونه اولیه، طراحی قالب کاملا ریسپانسیو، طراحی دیتابیس و ... از جمله زمینه های فعالیتی بنده می باشد.",
       "section_name": {
         "about": "درباره من",
-        "projects": "Projekty",
+        "projects": "پروژه ها",
         "skills": "Umiejętności",
         "experience": "Doświadczenie"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "فروشگاه قهوه شاران",
+        "startDate": "1398",
+        "description": "فروشگاه قهوه شاران واقع در مجتمع تجاری تهران کوروش، از نام آوران صنعت قهوه و با تنوع بسیار بالای دان قهوه و انواع شکلات ... در ساخت این وب سایت از سیستم مدیریت محتوی وردپرس استفاده شده است.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/sharan/sharan1.png",
+          "images/portfolio/sharan/sharan2.png",
+          "images/portfolio/sharan/sharan3.png",
+          "images/portfolio/sharan/sharan4.png"
         ],
-        "url": "",
+        "url": "https://www.sharan.coffee/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "رایکا صنعت خاور میانه",
+        "startDate": "1399",
+        "description": "رایکا صنعت خاور میانه، واقع در بندرعباس، فعال در حوزه سیستم های اعلان حریق، اطفاء حریق و ابزار دقیق، از بزرگان این صنعت در سطح کشور می باشد که پروژه های ملی میهنی و خصوصی بسیاری در روزمه کاریشان به چشم میخورد. در ساخت وب سایت این مجموعه از سیستم مدیریت محتوی وردپرس استفاده شده است.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/rayka/rayka1.png",
+          "images/portfolio/rayka/rayka2.png",
+          "images/portfolio/rayka/rayka3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://raykasanat.com/",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          }
+        ]
+      },
+      {
+        "title": "صرافی آنلاین کوین بیت",
+        "startDate": "1399",
+        "description": "صرافی آنلاین کوین بیت فعال در زمینه خرید و فروش رمز ارزها و همچنین اخبار دنیای کریپتوکرانسی و همچنین آموزش های بازار رمز ارزها ... در ساخت این وب سایت از تکنولوژی ری اکت جی اس و تایپ اسکریپت استفاده شده است.",
+        "images": [
+          "images/portfolio/coinbit/coinbit1.png",
+          "images/portfolio/coinbit/coinbit2.png",
+          "images/portfolio/coinbit/coinbit3.png",
+          "images/portfolio/coinbit/coinbit4.png",
+          "images/portfolio/coinbit/coinbit5.png"
+        ],
+        "url": "https://training-test.ir/",
         "technologies": [
           {
             "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "name": "React JS"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }

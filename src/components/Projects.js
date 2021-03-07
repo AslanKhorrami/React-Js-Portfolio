@@ -32,9 +32,18 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
-                  <span className="project-date">{projects.startDate}</span>
+                  <span
+                    className="project-date"
+                    style={{ fontFamily: "BTitrBold" }}
+                  >
+                    {projects.startDate}
+                  </span>
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
