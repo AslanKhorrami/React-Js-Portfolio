@@ -29,8 +29,8 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "80"
         },
         {
@@ -54,13 +54,53 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Node JS",
+          "class": "devicon-nodejs-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "Postgresql",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original",
+          "level": "60"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        },
+        {
+          "name": "C",
+          "class": "devicon-c-plain",
+          "level": "60"
+        },
+        {
+          "name": "VS Code",
+          "class": "devicon-visualstudio-plain",
+          "level": "60"
+        },
+        {
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "60"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
           "level": "60"
         }
       ]
