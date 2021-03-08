@@ -67,7 +67,14 @@ class Experience extends Component {
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
+              <span
+                className="text-black"
+                style={{
+                  textAlign: "center",
+                  fontSize: "200%",
+                  fontFamily: "BtitrBold",
+                }}
+              >
                 {sectionName}
               </span>
             </h1>
