@@ -71,37 +71,52 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Coinbit Exchange",
+        "title": "IT Manager",
+        "years": "Since March, 2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "devicon-react-original"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React JS",
+          "Redux",
+          "Wordpress",
+          "..."
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Raika Middle East Industry",
+        "title": "Web Design",
+        "years": "Since February, 2021",
         "mainTech": [
-          "Angular 7/8"
+          "devicon-wordpress-plain"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Wordpress"
+        ]
+      },
+      {
+        "company": "Coinbit Exchange",
+        "title": "Front-End Developer",
+        "years": "Since November, 2020",
+        "mainTech": [
+          "devicon-react-original"
+        ],
+        "technologies": [
+          "React JS",
+          "Redux",
+          "TypsScripts"
+        ]
+      },
+      {
+        "company": "Sharan Coffee Store",
+        "title": "Web Design",
+        "years": "Since January, 2020",
+        "mainTech": [
+          "devicon-wordpress-plain"
+        ],
+        "technologies": [
+          "Wordpress"          
         ]
       }
     ]

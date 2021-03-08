@@ -71,35 +71,52 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "صرافی آنلاین کوین بیت",
+        "title": "مدیر آی تی",
+        "years": "از فروردین 1400 تا کنون",
         "mainTech": [
-          "Angular 8/9/10"
+          "devicon-react-original"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "ری اکت جی اس",
+          "ریداکس",
+          "وردپرس",
+          "..."
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "رایکا صنعت خاور میانه",
+        "title": "طراحی سایت",
+        "years": "از اسفند 1399 تا کنون",
         "mainTech": [
-          "Angular 7/8"
+          "devicon-wordpress-plain"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "وردپرس"
+        ]
+      },
+      {
+        "company": "صرافی آنلاین کوین بیت",
+        "title": " فرانت اند",
+        "years": "از مرداد 1399 تا کنون",
+        "mainTech": [
+          "devicon-react-original"
+        ],
+        "technologies": [
+          "ری اکت جی اس",
+          "ریداکس",
+          "تایپ اسکریپت"
+        ]
+      },
+      {
+        "company": "فروشگاه قهوه شاران",
+        "title": "طراحی سایت",
+        "years": "از بهمن 1398 تا کنون",
+        "mainTech": [
+          "devicon-wordpress-plain"
+        ],
+        "technologies": [
+          "وردپرس"          
         ]
       }
     ]
