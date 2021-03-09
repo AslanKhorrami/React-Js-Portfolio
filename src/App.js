@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
@@ -28,6 +29,9 @@ function App() {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
+    oppositeLangIconId === window.$primaryLanguageIconId
+      ? (document.title = "Aslan Khorramie")
+      : (document.title = "اصلان خرمی");
     document
       .getElementById(oppositeLangIconId)
       .removeAttribute("filter", "brightness(40%)");
@@ -108,6 +112,13 @@ function App() {
 
   return (
     <div>
+      <ScrollUpButton
+        style={{
+          zIndex: "100",
+          border: "3px black solid",
+          backgroundColor: "rgba(255, 255, 255, 0.3)",
+        }}
+      />
       <Header sharedData={sharedData.basic_info} />
       <div className="col-md-12 mx-auto text-center language">
         <div

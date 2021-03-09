@@ -38,7 +38,8 @@ function Experience(props) {
                 className="vertical-timeline-element--work"
                 date={work.years}
                 iconStyle={{
-                  background: "#AE944F",
+                  // background: "#AE944F",
+                  background: "#3374CA",
                   color: "#fff",
                   textAlign: "center",
                   display: "grid",
@@ -100,7 +101,8 @@ function Experience(props) {
           {work}
           <VerticalTimelineElement
             iconStyle={{
-              background: "#AE944F",
+              // background: "#AE944F",
+              background: "#3374CA",
               color: "#fff",
               textAlign: "center",
             }}

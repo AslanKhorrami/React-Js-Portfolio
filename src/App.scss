@@ -31,6 +31,7 @@ html {
 
 .title-container {
   height: 50px;
+  color: white;
 }
 
 .title-styles {
@@ -56,7 +57,8 @@ header {
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
-  background-color: #e9d5a1;
+  // background-color: #e9d5a1;
+  background-color: #3374ca;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +94,8 @@ header {
 
 .language {
   font-size: 25px;
-  background-color: #e9d5a1;
+  // background-color: #e9d5a1;
+  background-color: #3374ca;
   padding-bottom: 10px;
   padding-top: 80px;
 }
@@ -101,7 +104,8 @@ header h1 {
   font-size: 400%;
   text-align: center;
   font-weight: 600 !important;
-  color: #353239;
+  // color: #353239;
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0 auto 18px auto;
   width: 100%;
@@ -238,7 +242,8 @@ header h1 {
 }
 
 #resume {
-  background: #efe1bd;
+  // background: #efe1bd;
+  background: #68a9fd;
 }
 
 .experience-icon {
@@ -252,7 +257,8 @@ header h1 {
   text-align: left !important;
   padding: 5px 8px 5px 8px !important;
   vertical-align: baseline;
-  background-color: #ae944f !important;
+  // background-color: #ae944f !important;
+  background-color: #3374ca;
   color: white;
   font-weight: lighter !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -360,7 +366,8 @@ header h1 {
 }
 
 #portfolio {
-  background: #efe1bd;
+  // background: #efe1bd;
+  background: #68a9fd;
   padding-bottom: 5%;
 }
 
