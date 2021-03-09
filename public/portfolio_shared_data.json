@@ -5,16 +5,22 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/AslanKhorrami?tab=repositories",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/aslan.khorramie/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "email",
+          "url": "mailto:aslan.kh.dostan@gmail.com",
+          "class": "fas fa-envelope"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.jpg",
+    "copyrigth": "Aslan Khorramie"
     },
     "skills": {
       "icons": [
